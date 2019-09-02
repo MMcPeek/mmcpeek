@@ -58,6 +58,7 @@ h1 {
 }
 
 #button1 .btn {
+	display: block;
 	border-radius: 4px;
 	background-color: transparent;
 	border-color: #000000;
@@ -67,7 +68,7 @@ h1 {
 	font-family: Raleway, "Raleway Thin";
 	margin-left: 42%;
 	margin-right: 40%;
-	margin-top: 3%;
+	margin-top: 5%;
 }
 
 #button1 .btn:hover {
