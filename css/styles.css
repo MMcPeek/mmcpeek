@@ -127,6 +127,10 @@ ul {
 	font-weight: normal;
 }
 
+li {
+	margin-left: 2%;
+}
+
 #about {
 	background-image: url("../images/aboutme.png");
 	background-repeat: no-repeat;
