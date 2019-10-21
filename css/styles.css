@@ -121,17 +121,17 @@ h1 {
 	font-family: Raleway, "Raleway Thin";
 }
 
-#skills list1 {
+#skills ul {
 	font-size: 1.5em;
 	font-family: Raleway, "Raleway Thin";
 	font-weight: normal;
+}
+
+#list1 {
 	margin-left: 33%;
 }
 
-#skills list2 {
-	font-size: 1.5em;
-	font-family: Raleway, "Raleway Thin";
-	font-weight: normal;
+#list2 {
 	margin-left: 5%;
 }
 
