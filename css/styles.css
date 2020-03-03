@@ -89,6 +89,11 @@ h1 {
 	font-family: Raleway, "Raleway Thin";
 }
 
+#jj {
+	padding-left: 30%;
+	padding-bottom: 7%;
+}
+
 #portfolio hr {
 	width: 10%;
 }
@@ -100,8 +105,8 @@ h1 {
 	font-family: Raleway, "Raleway Thin";
 }
 
-#portfolio img {
-	width: 100%;
+#intern {
+	padding-left: 25%;
 }
 
 #portfolio h3 {
@@ -109,6 +114,35 @@ h1 {
 	text-align: center;
 	font-size: 1.5em;
 	font-family: Raleway, "Raleway Thin";
+}
+
+#portfolio h4 {
+	padding-top: 2em;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: Raleway, "Raleway Thin";
+}
+
+.row {
+	padding-left: 7%;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#code {
+	padding-left: 25%;
+	padding-bottom: 2%;
 }
 
 #portfolio p {
@@ -121,15 +155,21 @@ h1 {
 	font-family: Raleway, "Raleway Thin";
 }
 
-ul {
+#skills ul {
 	font-size: 1.5em;
 	font-family: Raleway, "Raleway Thin";
 	font-weight: normal;
+	list-style: none;
 }
 
-#skills ul li {
-	padding-left: 20px;
+#list1 {
+	margin-left: 33%;
 }
+
+#list2 {
+	margin-left: 5%;
+}
+
 
 #about {
 	background-image: url("../images/aboutme.png");
