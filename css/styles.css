@@ -145,6 +145,17 @@ h1 {
 	padding-bottom: 2%;
 }
 
+#camphome {
+	padding-left: 25%;
+	padding-bottom: 2%;
+	height: 600px;
+}
+
+#campcode {
+	padding-left: 25%;
+	padding-bottom: 2%;
+}
+
 #portfolio p {
 	padding-bottom: 2em;
 }
