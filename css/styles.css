@@ -14,7 +14,7 @@ body {
 }
 
 /* Links inside the navbar */
-.navbar a {
+.navbar #links a {
   float: right;
   display: flex;
   color: #000000;
@@ -23,18 +23,17 @@ body {
   text-decoration: none;
   font-family: Raleway, "Raleway Thin";
   font-weight: bold;
+  padding-right: 2%;
 }
 
 /* Change background on mouse-over */
-.navbar a:hover {
+.navbar #links a:hover {
   font-style: italic;
   border-bottom: 3px solid black;
 }
 
-.navbar img {
+.navbar #pic {
 	float: left;
-	width: 5%;
-	height: 5%;
 }
 
 main {
@@ -71,9 +70,51 @@ h1 {
 	margin-top: 5%;
 }
 
+#buttonChoose:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#buttonChoose {
+	display: inline;
+	border-radius: 4px;
+	background-color: #000000;
+	border-color: #000000;
+	color: #FFFFFF;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: Raleway, "Raleway Thin";
+	margin-bottom: 5%;
+	margin-right: 5%;
+}
+
 #button1 .btn:hover {
 	background-color: #000000;
 	color: #FFFFFF;
+}
+
+#buttonApp:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#buttonApp {
+	display: inline;
+	border-radius: 4px;
+	background-color: #000000;
+	border-color: #000000;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: Raleway, "Raleway Thin";
+	margin-bottom: 5%;
+	margin-top: 2%;
+	color: #FFFFFF;
+}
+
+.buttons {
+	text-align: center;
 }
 
 #portfolio {
@@ -90,12 +131,16 @@ h1 {
 }
 
 #jj {
-	padding-left: 30%;
+	padding-left: 27%;
 	padding-bottom: 7%;
 }
 
 #portfolio hr {
 	width: 10%;
+}
+
+#portfolio p {
+	margin-top: 3%;
 }
 
 #portfolio h2 {
@@ -105,8 +150,87 @@ h1 {
 	font-family: Raleway, "Raleway Thin";
 }
 
+#internship {
+	margin-top: 5%;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+#internship h3 {
+	padding-top: 2em;
+	text-align: center;
+	font-size: 2em;
+	font-family: Raleway, "Raleway Thin";
+}
+
+#internship p {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+#bank {
+	margin-top: 5%;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+#bank h2 {
+	padding-top: 2em;
+	text-align: center;
+	font-size: 2em;
+	font-family: Raleway, "Raleway Thin";
+}
+
+#bank p {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+#camp {
+	margin-top: 5%;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+#camp h2 {
+	padding-top: 2em;
+	text-align: center;
+	font-size: 2em;
+	font-family: Raleway, "Raleway Thin";
+}
+
+#camp p {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+#recipe h2 {
+	padding-top: 2em;
+	text-align: center;
+	font-size: 2em;
+	font-family: Raleway, "Raleway Thin";
+}
+
+#recipe p {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+#jjSwap h2 {
+	padding-top: 2em;
+	text-align: center;
+	font-size: 2em;
+	font-family: Raleway, "Raleway Thin";
+}
+
+#jjSwap p {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
 #intern {
 	padding-left: 25%;
+	padding-bottom: 4em;
 }
 
 #portfolio h3 {
@@ -140,6 +264,24 @@ h1 {
   display: table;
 }
 
+.row2 {
+	padding-left: 12%;
+	padding-bottom: 5%;
+}
+
+.column2 {
+  float: left;
+  width: 42%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #code {
 	padding-left: 25%;
 	padding-bottom: 2%;
@@ -154,10 +296,6 @@ h1 {
 #campcode {
 	padding-left: 25%;
 	padding-bottom: 2%;
-}
-
-#portfolio p {
-	padding-bottom: 2em;
 }
 
 #skills h1 {
@@ -220,6 +358,10 @@ h1 {
 #contact .btn a {
 	text-decoration: none;
 	color: #000000;
+}
+
+#contact h1 {
+	margin-top: 9%;
 }
 
 footer {
